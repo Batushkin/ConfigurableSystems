@@ -28,6 +28,22 @@
             <maxValue>64</maxValue>
             <stepFunction>X + 1</stepFunction>
             <optional>False</optional>
+            <locations>
+                <sourceRange>
+                    <revisionRange>
+                        <introduced>29912ea9b7292ab04a370771f97acb5851edc494</introduced>
+                    </revisionRange>
+                    <path>src/simplus.cpp</path>
+                    <start>
+                        <line>10</line>
+                        <column>9</column>
+                    </start>
+                    <end>
+                        <line>10</line>
+                        <column>10</column>
+                    </end>
+                </sourceRange>
+            </locations>
         </configurationOption>
     </numericOptions>
     <booleanConstraints />
