@@ -1,52 +1,110 @@
 <vm name="simplus">
-    <binaryOptions>
-        <configurationOption>
-            <name>root</name>
-            <outputString>
-            </outputString>
-            <prefix>
-            </prefix>
-            <postfix>
-            </postfix>
-            <parent>
-            </parent>
-            <impliedOptions />
-            <excludedOptions />
-            <optional>False</optional>
-        </configurationOption>
-    </binaryOptions>
-    <numericOptions>
-        <configurationOption>
-            <name>X</name>
-            <outputString />
-            <prefix />
-            <postfix />
-            <parent>root</parent>
-            <impliedOptions />
-            <excludedOptions />
-            <minValue>0</minValue>
-            <maxValue>64</maxValue>
-            <stepFunction>X + 1</stepFunction>
-            <optional>False</optional>
-            <locations>
-                <sourceRange>
-                    <revisionRange>
-                        <introduced>29912ea9b7292ab04a370771f97acb5851edc494</introduced>
-                    </revisionRange>
-                    <path>src/simplus.cpp</path>
-                    <start>
-                        <line>10</line>
-                        <column>9</column>
-                    </start>
-                    <end>
-                        <line>10</line>
-                        <column>10</column>
-                    </end>
-                </sourceRange>
-            </locations>
-        </configurationOption>
-    </numericOptions>
-    <booleanConstraints />
-    <nonBooleanConstraints />
-    <mixedConstraints />
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>x1</name>
+      <outputString>x1</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <minValue>0</minValue>
+      <maxValue>64</maxValue>
+      <stepFunction>x1 + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>6ab67ebf82869807a299bba91ae23d2c9c41266b</introduced>
+          </revisionRange>
+          <path>src/simplus.cpp</path>
+          <start>
+            <line>10</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>10</line>
+            <column>8</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>x2</name>
+      <outputString>x2</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <minValue>0</minValue>
+      <maxValue>64</maxValue>
+      <stepFunction>x2 + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>96e3847fdbf54c64d0fe9855962811fee08e78ed</introduced>
+          </revisionRange>
+          <path>src/simplus.cpp</path>
+          <start>
+            <line>11</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>11</line>
+            <column>8</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>x3</name>
+      <outputString>x3</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <minValue>0</minValue>
+      <maxValue>64</maxValue>
+      <stepFunction>x3 + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>96e3847fdbf54c64d0fe9855962811fee08e78ed</introduced>
+          </revisionRange>
+          <path>src/simplus.cpp</path>
+          <start>
+            <line>12</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>12</line>
+            <column>8</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
 </vm>
