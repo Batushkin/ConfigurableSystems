@@ -1,0 +1,81 @@
+<vm name="kripke">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>dirsets</name>
+      <outputString>dirsets</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <minValue />
+      <maxValue />
+      <stepFunction>dirsets + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddcac43cdad999f0346eb682065ef0af1847029d</introduced>
+          </revisionRange>
+          <path>src/kripke.cpp</path>
+          <start>
+            <line>303</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>303</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>niter</name>
+      <outputString>niter</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <minValue />
+      <maxValue />
+      <stepFunction>niter + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddcac43cdad999f0346eb682065ef0af1847029d</introduced>
+          </revisionRange>
+          <path>src/kripke.cpp</path>
+          <start>
+            <line>378</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>378</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption> 
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>
