@@ -1,0 +1,110 @@
+<vm name="LULESH">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>its</name>
+      <outputString>its</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <minValue />
+      <maxValue />
+      <stepFunction>its + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>46c2a1d6db9171f9637d79f407212e0f176e8194</introduced>
+          </revisionRange>
+          <path>lulesh.h</path>
+          <start>
+            <line>600</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>600</line>
+            <column>12</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>nx</name>
+      <outputString>nx</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <minValue />
+      <maxValue />
+      <stepFunction>nx + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>46c2a1d6db9171f9637d79f407212e0f176e8194</introduced>
+          </revisionRange>
+          <path>lulesh.h</path>
+          <start>
+            <line>601</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>601</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>numReg</name>
+      <outputString>numReg</outputString>
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <minValue />
+      <maxValue />
+      <stepFunction>numReg + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>46c2a1d6db9171f9637d79f407212e0f176e8194</introduced>
+          </revisionRange>
+          <path>lulesh.h</path>
+          <start>
+            <line>602</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>602</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>
